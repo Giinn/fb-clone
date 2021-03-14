@@ -4,6 +4,21 @@
 	box-sizing: border-box;
 }
 
+.app {
+	background-color: #F1F2F5;
+}
+
+.app__body {
+	display: flex;
+	flex-direction: row;
+}
+
 @import "./header";
 @import "./sidebar";
 @import "./sidebar-row";
+@import "./feed";
+@import "./story";
+@import "./story-reel";
+@import "./message-sender";
+@import "./post";
+@import "./login";

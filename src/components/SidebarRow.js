@@ -11,4 +11,4 @@ const SidebarRow = ({ title, Icon, src }) => {
 	)
 }
 
-export default SidebarRow
+export default SidebarRow;
