@@ -1,9 +1,17 @@
 import "./styles/app.scss";
+import Header from "./components/Header"
 
 function App() {
     return (
         <div class="app">
-            <h1>This will be FB clone</h1>
+            <Header />
+
+            {/* Header component */}
+
+            {/* App body */}
+                {/* Sidebar */}
+                {/* Feeds */}
+                {/* Widgets */}
         </div>);
 }
 
