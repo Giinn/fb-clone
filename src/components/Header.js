@@ -11,18 +11,18 @@ import ForumIcon from '@material-ui/icons/Forum';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-function Header() {
+const Header = () => {
 	return (
 		<div className="header">
 			<div class="header__left">
 				<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="" />
 				<div class="header__input">
 					<SearchIcon />
-					<input type="text" />
+					<input type="text" placeholder="Search..." />
 				</div>
 			</div>
 			<div class="header__middle">
-				<div class="header__option">
+				<div class="header__option header__option--active">
 					<HomeIcon fontSize="large" />
 				</div>
 				<div class="header__option">
