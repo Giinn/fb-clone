@@ -14,7 +14,7 @@ const Post = ({ profilePic, image, userName, timeStamp, message }) => {
 				<Avatar src={profilePic} />
 				<div class="post__top-info">
 					<h3>{userName}</h3>
-					<p>Timestamp...</p>
+					<p>{timeStamp}</p>
 				</div>
 			</div>
 			<div class="post__bottom">
